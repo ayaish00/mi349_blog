@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body>
@@ -19,11 +20,11 @@
         </ul>
     </nav>
 
-    <section>
-        <article>
+    <section id="blog">
+        <article class="blog-post">
             <h2>Paper Prototyping</h2>
             <address>Last Modified: 2021/10/14</address>
-            <address><a href=about.html>Ayaka Ishide</a></address>
+            <address class="author"><a rel="author" href=about.html>Ayaka Ishide</a></address>
             <p><img src="prototype.jpg" alt="picture of all parts of the paper prototype"></p>
             <p>This is a paper prototype of a note taking app. Paper prototyping can be a great tool to use for user testing as it is cheap and easy to make, so making changes can be done relatively fast to make the next iteration to test. This app prototype was done for my MI 420 Interactive Prototyping class, but in the future I would like to develop it into a higher fidelity prototype using web-based tools. The idea of this app came from my own personal experience with taking notes in class, as I oftentimes could not keep up with the lecturer while I was taking notes as they would go too fast. This app has a feature in which you can record audio and the app will transcribe it in real-time, as well being able to edit the text simultaneously. There is also a scanning feature that will scan pictures or text onto the document. I feel that this app will be something I will actually use if it were to be made, so I would like to keep designing it. It will be interesting to see the development of the app design and how other people will react to the app. </p>
             <table>
@@ -49,16 +50,16 @@
                 </tr>
             </table>
         </article>
-        <article>
+        <article class="blog-post">
             <h2>Shorthand User Flows</h2>
             <address>Last Modified: 2021/10/14</address>
-            <address><a href=about.html>Ayaka Ishide</a></address>
+            <address class="author"><a rel="author" href=about.html>Ayaka Ishide</a></address>
             <p><img src="flow.jpg" alt="picture of the shorthand user flow"></p>
             <p>In my MI 349 Web Design and Development class, I learned about the shorthand technique for user flows. It is a method in which you write out what the user sees on an interface and then what they do as a result. This is repeated until the user reaches the end goal. I found this method very helpful in understanding the interfaces needed for users in various situations. In the assignment, we had to create three flows - purchasing an article of clothing from an online store, finding an underwater basket weaving video on Youtube, and setting up an email on a mobile phone. The flows that I created are in this order from the top. I can definitely see myself using this method in the future if I am ever planning an app or a website as it is useful in planning out what core elements need to be created for certain tasks. When creating wireframes, oftentimes I include elements that may not be necessary so seeing what is truly important to the user through these flows makes it easier to design. It is also convenient for planning sequences and connecting screens as each step of the shorthand user flow is a single element.</p>
         </article>
     </section>
     <form>
-        <label>Sign up for our newsletter:
+        <label id="newsletter">Sign up for our newsletter:
             <input type="email">
         </label>
         <button>Subscribe</button>
