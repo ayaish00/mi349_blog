@@ -22,10 +22,12 @@ p {
 
 #blog {
     border-top: 1px dotted #ccc;
+    display: flex;
 }
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
+    padding: 15px;
 }
 
 td {
@@ -33,11 +35,11 @@ td {
 }
 
 img {
-    width: 800px;
+    width: 500px;
 }
 
 img[src="profile.jpg"] {
-    width: 240px;
+    width: 200px;
 }
 
 #contact {
@@ -58,4 +60,36 @@ input[type=text], input[type=email], select, textarea {
 
 #newsletter {
     font-size: 1.5em;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    background: white;
+}
+
+.nav-list {
+    margin: 20px;
+    font-size: 1.3em;
+}
+
+figure {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    bottom: 40px;
+    padding: 10px;
+}
+
+figcaption {
+    position: relative;
+    bottom: 20px;
+}
+
+.skills {
+    list-style-position: inside;
 }
