@@ -75,6 +75,7 @@ nav {
 .nav-list {
     margin: 20px;
     font-size: 1.3em;
+    list-style-type: none;
 }
 
 figure {
@@ -92,4 +93,26 @@ figcaption {
 
 .skills {
     list-style-position: inside;
+}
+
+@media (max-width: 400px) {
+    html {
+        background-color: #242424;
+        
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    #blog {
+        border-top: 1px dotted #ccc;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-post {
+        border-bottom: 1px dotted #ccc;
+        padding: 15px;
+        flex: 1;
+    }  
 }
